@@ -1,0 +1,73 @@
+.main-container {
+    height: 22rem;
+    width: 42%;
+    margin: 10rem auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.heading-container-1 {
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.lists {
+    font-weight: 100;
+    color: gray;
+}
+
+.add-list-text {
+    font-weight: 300;
+    color: gray;
+}
+
+.fa-plus-circle {
+    color: red;
+}
+
+.heading-container-2 {
+    display: flex;
+    align-items: center;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    height: 14rem;
+}
+
+.all-cards {
+    border: solid thin red;
+    border-radius: 6%;
+}
+
+.card-heading {
+    margin: 1.5rem 1rem 0 2rem;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.heading-underline {
+    margin-left: 2rem;
+}
+
+.crossed-task {
+    margin: 1.5rem 1rem 2rem 2rem;
+    color: red;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.pending-task {
+    margin-left: 0.8rem;
+    font-weight: 300;
+}
+
+
+
