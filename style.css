@@ -7,7 +7,7 @@
 
 .heading-container {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .heading-container-1 {
@@ -81,3 +81,38 @@
     color: black
 }
 
+@media screen and (max-width: 1024px) {
+    .main-container {
+        width: 80%;
+        margin: 5rem auto;
+    }
+    .add-list-text {
+        display: none;
+    }
+    .heading-container {
+        justify-content: space-between;
+    }
+    .heading-container-1 {
+        display: flex;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .all-cards {
+        padding: 1rem;
+        border-radius: 0.5rem/0.5rem;
+        box-shadow: 2px 3px 4px #888888;
+        border: thin;
+    }
+    .card-heading {
+        margin: auto;
+        color: gray;
+    }
+    .heading-underline, .crossed-task, .pending-task {
+        display: none;
+    }
+    .fa-edit {
+        bottom: 1.3rem;
+    }
+
+}

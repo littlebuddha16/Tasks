@@ -81,3 +81,27 @@
     right: 0.8rem;
     color: red;
 }
+
+@media screen and (max-width: 1024px) {
+    .heading-line-decoration {
+        display: none;
+    }
+    .main-heading {
+        text-align: center;
+    }
+    .heading-text {
+        font-size: 1.5rem;
+    }
+    .back-text {
+        display: none;
+    }
+    .fa-arrow-circle-left {
+        position: relative;
+        bottom: 3rem;
+        right: 6rem;
+    }
+    .list-card {
+        position: relative;
+        right: 1rem;
+    }
+}

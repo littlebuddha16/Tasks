@@ -1,0 +1,67 @@
+.main-container {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-image {
+    height: 45rem;
+    filter: blur(0.25rem);
+}
+
+.add-item-box {
+    text-align: center;
+    border: solid thin red;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem;
+    position: absolute;
+    top: 14rem;
+}
+
+.text-label {
+    font-size: 1rem;
+    color: red;
+    font-weight: 300;
+}
+
+.text-field {
+    width: 13rem;
+    padding: 0.25rem;
+    border: solid thin red;
+    box-shadow: 2px 2px 3px #888888;
+    border-radius: 0.2rem;
+}
+
+.add-button {
+    background-color: red;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 6rem/6rem;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+@media (max-width: 1024px) {
+    .list-image {
+        display: none;
+    }
+    .add-item-img {
+        background: url("add_item_mobile.png") no-repeat 50% 70%;
+        background-size: 22rem 36rem;
+        padding: 300px;
+        filter: blur(0.2rem);
+    }
+    .add-item-box {
+        top: 16rem;
+        padding: 0.4rem 0.9rem;
+    }
+    .text-field {
+        width: 10rem;
+    }
+}

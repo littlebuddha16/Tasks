@@ -1,0 +1,75 @@
+.main-container {
+    width: 80%;
+    margin: 15rem auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasks-list {
+    height: 30rem;
+    width: auto;
+    filter: blur(0.3rem);
+}
+
+.add-list-box {
+    margin: auto;
+    text-align: center;
+    border: solid thin red; 
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 9rem;
+    background-color: white;
+}
+
+.text-label {
+    font-weight: 300;
+    color: red;
+}
+
+.text-field {
+    width: 15rem;
+    padding: 0.3rem;
+    border: solid thin red;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.add-button {
+    background-color: red;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6rem / 6rem;
+    margin: auto auto 0.5rem auto;
+}
+
+@media (max-width: 1024px) {
+    .main-container {
+        width: 40%;
+        margin: 10rem auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tasks-list {
+        display: none;
+    }
+    .image-flex {
+        background: url("tasks_lists_mobile_2.png") no-repeat 50% 70%;
+        background-size: 22rem 36rem;
+        padding: 600px;
+        filter: blur(0.25rem);
+        position: absolute;
+    }
+    .add-list-box {
+        padding: 0.5rem 0.8rem;
+        margin: auto;
+        position: relative;
+        top: 1rem;
+        right: 4rem;
+    }
+}
