@@ -1,0 +1,83 @@
+.main-container {
+    font-family: 'Roboto', sans-serif;
+    width: 44%;
+    margin: 5rem auto;
+}
+
+.heading-text {
+    display: inline-block;
+    margin: auto 1rem;
+    font-size: 2.3rem;
+}
+
+.heading-line-decoration {
+    width: 30%;
+    display: inline-block;
+}
+
+.back-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.fa-arrow-circle-left {
+    align-self: center;
+    color: red;
+}
+
+.back-text {
+    font-weight: 300;
+    color: gray;
+}
+
+.index {
+    align-self: center;
+}
+
+.list-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-card {
+    border: solid thin red;
+    padding: 1rem 0 2rem 1.2rem;
+    border-radius: 5%;
+    position: relative;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.card-heading {
+    color: red;
+    font-weight: 300;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.card-heading-line {
+    margin-left: 1rem;
+    margin-bottom: 1.8rem;
+    width: 10rem;
+}
+
+.crossed-task {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: red;
+    text-decoration: line-through;
+}
+
+.pending-task {
+    margin-bottom: 4rem;
+    font-weight: 300;
+}
+
+.fa-plus-circle {
+    position: absolute;
+    bottom: 0.8rem;
+    right: 0.8rem;
+    color: red;
+}

@@ -44,6 +44,8 @@
 .all-cards {
     border: solid thin red;
     border-radius: 6%;
+    box-shadow: 5px 10px 8px #888888;
+    position: relative;
 }
 
 .card-heading {
@@ -69,5 +71,13 @@
     font-weight: 300;
 }
 
+.fa-edit {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 1rem;
+}
 
+.edit-icon {
+    color: black
+}
 
